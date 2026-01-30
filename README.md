@@ -22,3 +22,5 @@ The principal objectives of this TFM are:
 **This repository contains all the documentation developed during the TFM. All the design has been developed in Altium. BOM, CPL, Gerber, Master thesis and additional files can be found in this repository.** 
 
 NOTE: the explanation of how to port a custom PCB flight controller to ArduPilot, development of a boards, space analysis and more can be found in the thesis.
+
+![image alt](https://github.com/AlexBoa45/TFM_Custom_FC_Ardupilot/blob/ef7385da50431d6992b2e89d9d66e3cb9c6e5af8/General_photos/schematic_photo.jpg)
