@@ -1,0 +1,47 @@
+# defaults.parm
+# Configuración automática para CustomH7
+
+# --- 1. PUERTO SERIAL 1 (Ahora es el físico USART6) --- 
+# Función: GPS Principal 
+SERIAL1_PROTOCOL 5 
+SERIAL1_BAUD 115 
+
+# --- 2. PUERTO SERIAL 2 ( USART2) --- 
+# Función: Telemetría 1 
+SERIAL2_PROTOCOL 1 
+SERIAL2_BAUD 57 
+
+# --- 3. PUERTO SERIAL 3 (USART3) --- 
+# Función: GPS Secundario 
+SERIAL3_PROTOCOL 5 
+SERIAL3_BAUD 115 
+
+# --- 4. PUERTO SERIAL 4 (UART7) --- 
+# Función: Entrada de Radio (RCIN) 
+SERIAL4_PROTOCOL 23 
+SERIAL4_OPTIONS 0 
+
+# --- 5. PUERTO SERIAL 5 (UART8) --- 
+# Función: Telemetría 2 (o OSD externo) 
+SERIAL5_PROTOCOL 1 
+SERIAL5_BAUD 57
+
+# DroneCAN 
+CAN_D1_PROTOCOL 1 
+# Habilitar Driver 1
+CAN_P1_DRIVER 1 
+# Disable safety pin
+BRD_SAFETYENABLE 0
+BRD_BOOT_DELAY 3000
+
+# --- 3. BATERÍA (Configuración para HEX Cube Power Brick) --- 
+BATT_MONITOR 4 
+# 4 = Analógico (Voltaje y Corriente) 
+# El divisor de voltaje estándar del Cube es 10.1 
+BATT_VOLT_MULT 10.1 
+# El sensor de corriente del Cube convierte 17 Amperios a 1 Voltio 
+BATT_AMP_PERVLT 17.0
+
+# --- 4. ORIENTACIÓN ---
+AHRS_ORIENTATION 0
+COMPASS_ORIENT 0
